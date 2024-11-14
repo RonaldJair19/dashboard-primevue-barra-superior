@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@primevue/nuxt-module": "^4.2.2",
+    "nuxt": "^3.13.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.50.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
+  }
+}
